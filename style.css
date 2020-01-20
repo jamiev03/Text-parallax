@@ -25,18 +25,23 @@ section .content h2 {
     line-height: 1em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
 }
 section:nth-child(1) .content h2 {
-
+    background-image: url(img/fire.jpg);
+    background-position: center;
 }
-section:nth-child(1) .content h2 {
-    
+section:nth-child(2) .content h2 {
+    background-image: url(img/water.jpg);
+    background-position: center;
 }
-section:nth-child(1) .content h2 {
-    
+section:nth-child(3) .content h2 {
+    background-image: url(img/ice.jpg);
+    background-position: center;
 }
-section:nth-child(1) .content h2 {
-    
+section:nth-child(4) .content h2 {
+    background-image: url(img/sand.jpg);
+    background-position: center;
 }
 section .content p {
     max-width: 750px;
